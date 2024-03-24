@@ -12,4 +12,10 @@ let userHeight;
 
 userHeight = 1.7;
 
-console.log(userWeight / (userHeight * userHeight));
+// BMIの変数
+
+let userBmi;
+
+userBmi = userWeight / (userHeight * userHeight)
+
+console.log(userBmi);
